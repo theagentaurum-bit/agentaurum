@@ -1,3 +1,4 @@
+
 :root {
     --header: 65px;
 }
@@ -6,6 +7,7 @@
 body{
 background-color: #cf8944;
 text-align: center;
+margin: 0px;
 }
 
 #title-text{
@@ -18,14 +20,36 @@ h1 {
 color: white;
 font-weight: bold;
 font-size: 50px;
+text-align: center;
+margin-top: 40px;
 }
 
 h2 {
 color: whitesmoke;
 }
 
-nav {
-display: flex;
-gap: 20px;
-justify-content: center;
+.navbar ul {
+    list-style-type: none;
+    background-color: white;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #a49e97;
+    color: white;
+}
+
+.navbar li {
+    float: left;
 }
